@@ -1,0 +1,35 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.box {
+  width: 32.5%;
+  height: 60px;
+  margin: 5px;
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+  order: 3;
+}
+
+.green {
+  background-color: green;
+  order: 2;
+}
+
+.blue {
+  background-color: blue;
+  order: 1;
+}
